@@ -1,0 +1,18 @@
+Features planned for basic bridge
+
+1. Forwarding packets:
+    Need Forwarding database table.
+    1. Timeout
+    2. Broadcast
+    3. Multicast
+    4. MAC moves -- If station moves from one port to another, bridge should update with new port number.
+    5. FDB size
+    6. Static entry of MAC -- CLI to add static entry and brctl commands.
+    7. Handle FDB overflow --- erase scenarios.
+    8. FDB maintenance -- Searching algorithm  should be fast.
+  
+2. brctl hooks
+3. Assigning Bridge MAC 
+4. CPU should reachable via Bridge
+5. Packet forwarding method -- DMA (Mem copy)
+6. L2 Multicast  
